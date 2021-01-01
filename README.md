@@ -7,3 +7,13 @@ Songsheets are stored as single page pdfs in a filesystem arranged by artist and
 Players point their browser to "pull.php" where they can browse the songlist and songsheets. In addition, the song selected by the Jam Leader is also displayed as a link which can be manually selected to appear on the current page, on a new page or on a new tab. The Jam Member can also choose to allow the current song to automatically display on the current page.
 
 The first implementation was implemented on an AWS Lighthouse/Lamp server. Besides the song sheet library and the push/pull.php pages, there are a few php files that respond to javascript/ajax requests to update the "Now Playing" song choice and to form the urls to display the pdfs.
+
+## Screenshots
+
+### Jam Leader Page
+
+![jam leader page](images/jam-leader-page.png)
+
+### Jammer's Page
+
+![jammers page](images/jammers-page.png)
